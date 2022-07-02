@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { TranslocoService } from '@ngneat/transloco';
 
 @Component({
@@ -6,25 +6,25 @@ import { TranslocoService } from '@ngneat/transloco';
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.css'],
 })
-export class WelcomeComponent implements OnInit {
+export class WelcomeComponent {
   title = 'Welcome to the CWD';
 
-  ngOnInit() {}
-
   siteLanguage = 'English';
+  selectedLang: string;
 
-  languageList = [
+  langs = [
     { code: 'en', label: 'English' },
     { code: 'es', label: 'Español' },
     { code: 'pt-BR', label: 'Português' },
   ];
 
-  constructor(private service: TranslocoService) {}
+  constructor(private service: TranslocoService) {
+    const activeLang = this.service.getActiveLang();
+    this.selectedLang = activeLang;
+  }
 
-  changeSiteLanguage(language: string): void {
+  changeLang(language: string): void {
     this.service.setActiveLang(language);
-    this.siteLanguage = this.languageList.find(
-      (f) => f.code === language
-    )?.label!;
+    this.siteLanguage = this.langs.find((f) => f.code === language)?.label!;
   }
 }
