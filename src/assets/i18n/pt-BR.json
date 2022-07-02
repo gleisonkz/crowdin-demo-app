@@ -1,5 +1,10 @@
 {
   "nav": {
     "welcome": "Bem vindo"
+  },
+  "home": {
+    "running": "Aplicação em execução",
+    "resources": "Recursos",
+    "links": "Aqui estão alguns links que podem ajudar você a começar:"
   }
 }
