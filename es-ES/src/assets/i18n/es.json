@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "welcome": "Welcome",
+    "monitor": "Monitor",
+    "workplace": "Workplace",
+    "form": "Form",
+    "basicForm": "Basic Form"
+  },
+  "home": {
+    "running": "App is running",
+    "resources": {
+      "title": "Resources",
+      "description": "Here are some links to help you start:",
+      "links": {
+        "learnAngular": "Learn Angular",
+        "cliDocs": "CLI Documentation",
+        "angularMaterial": "Angular Material",
+        "angularBlog": "Angular Blog",
+        "angularDevTools": "Angular Dev Tools"
+      }
+    },
+    "nextSteps": {
+      "title": "Next Steps",
+      "description": "What do you want to do next with your app?",
+      "buttons": {
+        "newComponent": "New Component",
+        "angularMaterial": "Angular Material",
+        "pwaSupport": "Add PWA Support",
+        "addDependency": "Add Dependency",
+        "runAndWatchTests": "Run and Watch Tests",
+        "buildForProduction": "Build for Production"
+      }
+    }
+  }
+}
