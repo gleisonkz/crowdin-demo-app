@@ -1,11 +1,11 @@
 {
   "nav": {
-    "dashboard": "Painel",
+    "dashboard": "Dashboard",
     "welcome": "Bem-vindo",
-    "monitor": "Monitorar",
-    "workplace": "Local de Trabalho",
-    "form": "Formulário",
-    "basicForm": "Formulário básico"
+    "monitor": "Monitor",
+    "workplace": "Workplace",
+    "form": "Form",
+    "basicForm": "Basic Form"
   },
   "home": {
     "running": "A aplicação está sendo executada",
