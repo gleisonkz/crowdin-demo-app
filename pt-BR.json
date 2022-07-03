@@ -1,11 +1,31 @@
 {
   "nav": {
-    "welcome": "Bem vindo"
+    "welcome": "Bem-vindo"
   },
   "home": {
-    "welcome": "Bem vindo",
-    "running": "Aplicação em execução",
-    "resources": "Recursos",
-    "links": "Aqui estão alguns links que podem ajudar você a começar:"
+    "running": "A aplicação está sendo executada",
+    "resources": {
+      "title": "Recursos",
+      "description": "Aqui estão alguns links para ajudá-lo a começar:",
+      "links": {
+        "learnAngular": "Aprenda Angular",
+        "cliDocs": "Documentação da CLI",
+        "angularMaterial": "Angular Material",
+        "angularBlog": "Blog Angular",
+        "angularDevTools": "Angular Dev Tools"
+      }
+    },
+    "nextSteps": {
+      "title": "Próximos passos",
+      "description": "O que você quer fazer a seguir, com sua aplicação?",
+      "buttons": {
+        "newComponent": "Novo componente",
+        "angularMaterial": "Angular Material",
+        "pwaSupport": "Adicionar suporte a PWA",
+        "addDependency": "Adicionar Dependência",
+        "runAndWatchTests": "Executar e assistir os testes",
+        "buildForProduction": "Buildar para Produção"
+      }
+    }
   }
 }
