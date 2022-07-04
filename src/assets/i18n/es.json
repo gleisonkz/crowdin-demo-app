@@ -1,8 +1,8 @@
 {
   "nav": {
-    "dashboard": "Dashboard",
-    "welcome": "Welcome",
-    "monitor": "Monitor",
+    "dashboard": "Tablero",
+    "welcome": "Bienvenida",
+    "monitor": "Seguimiento",
     "workplace": "Workplace",
     "form": "Form",
     "basicForm": "Basic Form"
