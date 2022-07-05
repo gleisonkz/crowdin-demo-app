@@ -1,11 +1,11 @@
 {
   "nav": {
-    "dashboard": "Dashboard",
-    "welcome": "Welcome",
-    "monitor": "Monitor",
-    "workplace": "Workplace",
-    "form": "Form",
-    "basicForm": "Basic Form"
+    "dashboard": "Tablero",
+    "welcome": "Bienvenida",
+    "monitor": "Seguimiento",
+    "workplace": "Trabajador",
+    "form": "Forma",
+    "basicForm": "Forma básica"
   },
   "home": {
     "running": "App is running",
